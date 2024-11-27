@@ -1,0 +1,387 @@
+/* General Responsive Adjustments */
+@media (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 5px 20px;
+    }
+
+    .hero-section .hero-text p {
+        font-size: 20px;
+        line-height: 35.77px;
+    }
+    .hero-section .hero-features .feature-item {
+        padding: 5px;
+    }
+    .hero-section .hero-features p {
+        font-size: 10px;
+    }
+    .hero-section .hero-button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .hero-section .trustpilot {
+        line-height: 35px;
+        margin-top: 20px !important;
+    }
+    .hero-section .trustpilot p:first-child {
+        font-size: 14px;
+    }
+    .hero-section .trustpilot p {
+        font-size: 13px;
+    }
+
+    .intro-section .intro-item {
+        margin: 30px 0px;
+        padding: 5px 35px;
+    }
+
+    .intro-section .intro-item p {
+        font-size: 15px;
+    }
+    .intro-section .intro-number {
+        font-size: 40px;
+    }
+
+    .overlapping-text {
+        bottom: 65%;
+    }
+    .overlapping-text h2 {
+        font-size: 30px;
+        padding: 10px 16px;
+    }
+
+    .core-values-section .text-content {
+        margin-left: 25px;
+    }
+
+    .core-values-section h5 {
+        font-size: 15px;
+    }
+
+    .core-values-section p {
+        font-size: 13px;
+    }
+
+    .partnership-section .partnership-title {
+        font-size: 35px;
+    }
+
+    .partnership-section .partnership-desc {
+        font-size: 18px;
+    }
+
+    .partnership-section .partnership-img-main {
+        width: 566px;
+    }
+
+    .partnership-section .logo-img {
+        width: 173px;
+    }
+
+    .testimonial-section .testimonial-avatar {
+        width: 400px;
+    }
+
+    .quote-box h5 {
+        font-size: 27px;
+    }
+
+    .testimonial-text {
+        font-size: 19px;
+    }
+
+    .quote-open,
+    .quote-close {
+        width: 50px;
+    }
+
+    .features-and-offering-title {
+        font-size: 34px;
+    }
+
+    .process-guide-section .process-guide-title {
+        font-size: 35px;
+    }
+
+    .process-guide-section .process-guide-text-small {
+        font-size: 18px;
+    }
+
+    .step-number {
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .step-title {
+        font-size: 17px;
+    }
+
+    .step-description {
+        font-size: 0.8rem;
+    }
+
+    .process-arrow {
+        width: 74px;
+    }
+
+    .global-presence-section h2 {
+        font-size: 35px;
+    }
+
+    .footer a {
+        font-size: 13px;
+    }
+
+    .footer .phone-number {
+        margin-right: 50px;
+    }
+
+    .footer .text-copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-section h1 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 4px 17px;
+    }
+
+    .hero-section .hero-text p {
+        font-size: 18px;
+        line-height: 25.77px;
+    }
+    .hero-section .hero-features .feature-item {
+        padding: 5px;
+    }
+    .hero-section .hero-features .feature-item img {
+        width: 10px !important;
+        height: 10px !important;
+    }
+    .hero-section .hero-features p {
+        font-size: 9px;
+    }
+
+    .intro-section .intro-item {
+        margin: 27px 0px;
+        padding: 4px 30px;
+    }
+
+    .intro-section .intro-item p {
+        font-size: 16px;
+    }
+    .intro-section .intro-number {
+        font-size: 25px;
+    }
+
+    .overlapping-text h2 {
+        font-size: 20px;
+        padding: 8px 14px;
+        line-height: 30px;
+    }
+
+    .core-values-section .text-content {
+        margin-top: 40%;
+    }
+    .core-values-section .text-content {
+        margin-left: 25px;
+    }
+    .overlapping-text {
+        bottom: 71%;
+    }
+    .core-values-section h5 {
+        font-size: 15px;
+    }
+
+    .core-values-section p {
+        font-size: 13px;
+    }
+
+    .partnership-section .partnership-title {
+        font-size: 27px;
+    }
+
+    .partnership-section .partnership-desc {
+        font-size: 16px;
+    }
+
+    .partnership-section .partnership-img-main {
+        width: 400px;
+    }
+
+    .partnership-section .logo-img {
+        width: 123px;
+        margin: 0px 8px;
+    }
+
+    .testimonial-section .testimonial-avatar {
+        width: 299px;
+    }
+
+    .quote-box h5 {
+        font-size: 23px;
+    }
+
+    .testimonial-text {
+        font-size: 17px;
+    }
+
+    .quote-open,
+    .quote-close {
+        width: 35px;
+    }
+
+    .features-and-offering-title {
+        font-size: 31px;
+    }
+
+    .process-guide-section .process-guide-title {
+        font-size: 25px;
+    }
+
+    .process-guide-section .process-guide-text-small {
+        font-size: 17px;
+    }
+
+    .step-number {
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .step-title {
+        font-size: 17px;
+    }
+
+    .step-description {
+        font-size: 0.7rem;
+    }
+
+    .process-arrow {
+        width: 74px;
+    }
+
+    .global-presence-section h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 83px;
+    }
+    .hero-section h1 {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0px 4px;
+    }
+
+    .hero-section .hero-text p {
+        font-size: 11px;
+        line-height: 15.77px;
+    }
+
+    .hero-section .trustpilot p:first-child {
+        font-size: 11px;
+    }
+
+    .hero-section .trustpilot p {
+        font-size: 11px;
+    }
+
+    .hero-section .trustpilot img {
+        width: 70px;
+    }
+
+    .hero-section .hero-button {
+        padding: 7px 16px;
+        font-size: 9px;
+    }
+
+    .hero-section .hero-features .border-right-active {
+        border: none;
+    }
+
+    .hero-section .hero-features .feature-item {
+        padding: 5px;
+    }
+    .hero-section .hero-features .feature-item img {
+        width: 10px !important;
+        height: 10px !important;
+    }
+    .hero-section .hero-features p {
+        font-size: 9px;
+    }
+
+    .intro-section .intro-item {
+        margin: 10px 0px;
+        padding: 22px 30px;
+    }
+
+    .intro-section .intro-item p {
+        font-size: 21px;
+        margin: 0;
+    }
+    .intro-section .intro-number {
+        font-size: 36px;
+    }
+
+    .overlapping-text h2 {
+        font-size: 20px;
+        padding: 8px 14px;
+        line-height: 30px;
+    }
+
+    .core-values-section .text-content {
+        margin-top: 5%;
+    }
+
+    .overlapping-text {
+        bottom: 71%;
+    }
+    .core-values-section h5 {
+        font-size: 15px;
+    }
+
+    .core-values-section p {
+        font-size: 13px;
+    }
+
+    .partnership-section {
+        padding: 10px 0px !important;
+    }
+    .partnership-section .partnership-title {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .partnership-section .partnership-desc {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .quote-box h5 {
+        font-size: 28px;
+    }
+    .quote-box {
+        margin-top: 30px;
+        width: 489px;
+        height: 352px;
+    }
+
+    .testimonial-text {
+        font-size: 21px;
+        line-height: 40px;
+    }
+
+    .quote-open,
+    .quote-close {
+        width: 25px;
+    }
+    .step-title {
+        margin: 0px 20px;
+    }
+}
