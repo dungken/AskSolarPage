@@ -1,6 +1,14 @@
 /* /////////// APP GLOBAL STYLES //////////////// */
+
 body {
     font-family: "Futura PT", sans-serif;
+}
+@font-face {
+    font-family: "Roobert TRIAL";
+    src: url("../font/RoobertTRIAL-Light-BF67243fd502239.otf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* /////////// Hero Section Styles //////////////// */
@@ -38,6 +46,9 @@ body {
     line-height: 20.51px;
     color: #ffffff;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-section .hero-features .border-right-active {
@@ -45,11 +56,11 @@ body {
 }
 
 .hero-section .hero-features .feature-item {
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 
 .hero-section .hero-button {
-    padding: 12px 25px;
+    padding: 14px 30px;
     color: #fff;
     border-radius: 22px;
     font-size: 16px;
@@ -70,7 +81,7 @@ body {
     margin: 0;
 }
 .hero-section .trustpilot p:first-child {
-    font-family: Roobert TRIAL;
+    font-family: "Roobert TRIAL", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 20.22px;
@@ -94,7 +105,7 @@ body {
     font-weight: 400;
     line-height: 30.77px;
     text-align: center;
-    color: #8f8f8f;
+    color: #8f8f8f !important;
 }
 .intro-section .intro-number {
     font-size: 56px;
@@ -149,7 +160,7 @@ body {
 
 .core-values-section h5 {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 500 !important;
     line-height: 23.08px;
     text-align: left;
     color: #000000;
@@ -190,7 +201,7 @@ body {
 }
 .partnership-section .partnership-title {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 700 !important;
     line-height: 51.28px;
     text-align: left;
 }
@@ -235,6 +246,11 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.button-indicators {
+    left: 50%;
+    bottom: 15%;
 }
 
 .quote-box h5 {
@@ -368,7 +384,7 @@ body {
 
 /* /////////// Footer Section Styles //////////////// */
 .footer {
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 
 .footer ul {
@@ -386,7 +402,8 @@ body {
 }
 
 .footer .border-light {
-    border-color: #3f3f3f;
+    border: 1px solid #f3f3f3 !important;
+    margin: 20px 60px;
 }
 
 .footer .text-copyright {
@@ -397,5 +414,5 @@ body {
 }
 
 .footer .phone-number {
-    margin-right: 70px;
+    margin-right: 42px;
 }
