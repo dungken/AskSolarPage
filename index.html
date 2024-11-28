@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./asset/css/main.css">
     <link rel="stylesheet" href="./asset/css/responsive.css">
 
+    <!-- IMPORT FONTS -->
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
     <title>Ask Solar</title>
 </head>
 
@@ -41,22 +43,22 @@
                         <div class="feature-item col-md-4">
                             <p class="border-right-active">
                                 <img src="./asset/image/flash.png" alt="Check Icon"
-                                    style="width: 20px; height: 20px; margin-right: 5px;">
-                                1yr Solid Production Guarantee
+                                    style="width: 24px; height: 24px; margin-right: 5px;">
+                                1 yr Solid Production Guarantee
                             </p>
                         </div>
                         <div class="feature-item col-md-4">
                             <p class="border-right-active">
                                 <img src="./asset/image/group.png" alt="Check Icon"
-                                    style="width: 20px; height: 20px; margin-right: 5px;">
-                                15yr Workmanship Warrant
+                                    style="width: 24px; height: 24px; margin-right: 5px;">
+                                15 yr Workmanship Warrant
                             </p>
                         </div>
                         <div class="feature-item col-md-4">
                             <p>
                                 <img src="./asset/image/medal 1.png" alt="Check Icon"
-                                    style="width: 20px; height: 20px; margin-right: 5px;">
-                                25yr Parts and Production Warrant
+                                    style="width: 24px; height: 24px; margin-right: 5px;">
+                                25 yr Parts and Production Warrant
                             </p>
                         </div>
                     </div>
@@ -67,7 +69,10 @@
                     <!-- TrustPilot -->
                     <div class="trustpilot mt-5 mb-3">
                         <p>100% Free, No obligation, Takes only 30 seconds</p>
-                        <p>Rated 4.9/5 from 53,709 reviews</p>
+                        <p style="font-weight: 500;">
+                            Rated <span style="font-weight: 650;">4.9/5</span> from <span
+                                style="font-weight: 650;">53,709</span> reviews
+                        </p>
                         <img src="./asset/image/Daco_1534091 1.png" alt="Trustpilot Rating">
                     </div>
                 </div>
@@ -149,7 +154,7 @@
     <!-- Partnership Section -->
     <section class="partnership-section py-5">
         <div class="container">
-            <div class="row align-items-center my-4">
+            <div class="row align-items-start my-4">
                 <!-- Left Side: Text -->
                 <div class="col-md-4 text-center text-md-start">
                     <h2 class="partnership-title fw-bold mb-4">The Partnership That Sets Us Apart</h2>
@@ -167,7 +172,7 @@
                             class="partnership-img-main img-fluid rounded shadow">
                     </div>
                     <!-- Partner Logos -->
-                    <div class="d-flex justify-content-center gap-4">
+                    <div class="d-flex justify-content-center gap-4 partner-logos">
                         <img src="./asset/image/logo-partnership-1.png" alt="Partner 1"
                             class="img-fluid logo-img shadow">
                         <img src="./asset/image/logo-partnership-2.png" alt="Partner 2"
@@ -184,10 +189,10 @@
 
 
     <!-- Testimonial Section -->
-    <section class="testimonial-section py-5">
+    <section class="testimonial-section py-md-5 py-2">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-12 col-sm-8">
+                <div class="col-lg-12 col-md-11 col-sm-12">
                     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <!-- Slide 1 -->
@@ -200,7 +205,7 @@
                                     </div>
                                     <!-- Quote Box -->
                                     <div class="testimonial-quote-box col-md-6">
-                                        <div class="quote-box position-relative p-4">
+                                        <div class="quote-box p-4">
                                             <!-- Dấu nháy mở -->
                                             <img src="./asset/image/ooui_quotes-ltr.png" alt="Open Quote"
                                                 class="quote-open position-absolute">
@@ -215,15 +220,6 @@
                                             <!-- Dấu nháy đóng -->
                                             <img src="./asset/image/ooui_quotes-ltr-2.png" alt="Close Quote"
                                                 class="quote-close position-absolute">
-
-                                            <!-- Carousel Indicators -->
-                                            <div class="button-indicators carousel-indicators">
-                                                <button type="button" data-bs-target="#testimonialCarousel"
-                                                    data-bs-slide-to="0" class="active" aria-current="true"
-                                                    aria-label="Slide 1"></button>
-                                                <button type="button" data-bs-target="#testimonialCarousel"
-                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            </div>
                                         </div>
 
                                     </div>
@@ -239,7 +235,7 @@
                                     </div>
                                     <!-- Quote Box -->
                                     <div class="testimonial-quote-box col-md-6">
-                                        <div class="quote-box position-relative p-4">
+                                        <div class="quote-box p-4">
                                             <!-- Dấu nháy mở -->
                                             <img src="./asset/image/ooui_quotes-ltr.png" alt="Open Quote"
                                                 class="quote-open position-absolute">
@@ -255,20 +251,20 @@
                                             <img src="./asset/image/ooui_quotes-ltr-2.png" alt="Close Quote"
                                                 class="quote-close position-absolute">
 
-                                            <!-- Carousel Indicators -->
-                                            <div class="button-indicators carousel-indicators">
-                                                <button type="button" data-bs-target="#testimonialCarousel"
-                                                    data-bs-slide-to="0" class="active" aria-current="true"
-                                                    aria-label="Slide 1"></button>
-                                                <button type="button" data-bs-target="#testimonialCarousel"
-                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            </div>
+
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- Carousel Indicators -->
+                            <div class="button-indicators position-absolute carousel-indicators">
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            </div>
 
                         </div>
 
@@ -281,54 +277,54 @@
 
 
     <!-- Features And Offerings Section -->
-    <section class="features-and-offerings-section py-5">
+    <section class="features-and-offerings-section py-md-5 py-3">
         <div class="container text-center">
             <h2 class="features-and-offering-title fw-bold mb-5">Features And Offerings</h2>
-            <div class="row g-4 mx-5">
+            <div class="row g-4 mx-md-3">
                 <!-- Item 1 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-1.png" alt="Roof Mount" class="img-fluid">
                     </div>
                 </div>
                 <!-- Item 2 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-2.png" alt="Ground Mount" class="img-fluid">
                     </div>
                 </div>
                 <!-- Item 3 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-3.png" alt="Local" class="img-fluid">
                     </div>
                 </div>
                 <!-- Item 4 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-4.png" alt="Lots of Support" class="img-fluid">
                     </div>
                 </div>
                 <!-- Item 5 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-5.png" alt="All Black Panels" class="img-fluid">
                     </div>
                 </div>
                 <!-- Item 6 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-6.png" alt="Commercial" class="img-fluid">
                     </div>
                 </div>
                 <!-- Item 7 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-7.png" alt="Farms" class="img-fluid">
                     </div>
                 </div>
                 <!-- Item 8 -->
-                <div class="col-md-3 col-sm-6 feature-item">
+                <div class="col-md-3 col-6 feature-item">
                     <div class="feature-card">
                         <img src="./asset/image/feature-offer-8.png" alt="Residential" class="img-fluid">
                     </div>
@@ -344,7 +340,7 @@
             <p class="process-guide-text-small mb-5">At AskSolar, we simplify solar with a 4-step process for
                 easy, <br> affordable
                 installation. Hover over each step to learn more:</p>
-            <div class="row justify-content-around mx-5">
+            <div class="row justify-content-around mx-md-5">
                 <!-- Step 1 -->
                 <div class="col-md-3">
                     <div class="process-step">
@@ -355,7 +351,7 @@
                                 <img src="./asset/image/arrow-right.png" alt="Arrow Right" class="process-arrow">
                             </div>
                         </div>
-                        <h5 class="step-title mt-3">Consultation</h5>
+                        <h5 class="step-title mt-md-3 mt-2">Consultation</h5>
                         <p class="step-description">
                             Our consultants guide you through switching to solar with a tailored system for your home
                             and
@@ -374,7 +370,7 @@
                                 <img src="./asset/image/arrow-right.png" alt="Arrow Right" class="process-arrow">
                             </div>
                         </div>
-                        <h5 class="step-title mt-3">Design & Savings Report</h5>
+                        <h5 class="step-title mt-md-3 mt-2">Design & Savings Report</h5>
                         <p class="step-description">
                             View 3D models of your system on your roof and see how it’s designed to maximize energy
                             efficiency.
@@ -392,7 +388,7 @@
                                 <img src="./asset/image/arrow-right.png" alt="Arrow Right" class="process-arrow">
                             </div>
                         </div>
-                        <h5 class="step-title mt-3">Permitting</h5>
+                        <h5 class="step-title mt-md-3 mt-2">Permitting</h5>
                         <p class="step-description">
                             We handle engineering, permitting, and inspections, ensuring a stress-free process for you.
                         </p>
@@ -409,7 +405,7 @@
                                 <img src="./asset/image/arrow-right.png" alt="Arrow Right" class="process-arrow">
                             </div>
                         </div>
-                        <h5 class="step-title mt-3">Installation</h5>
+                        <h5 class="step-title mt-md-3 mt-2">Installation</h5>
                         <p class="step-description">
                             Our expert local installers ensure your system is set up correctly. After installation,
                             we’ll
@@ -423,7 +419,7 @@
 
 
     <!-- Global Presence Section -->
-    <section class="global-presence-section py-5">
+    <section class="global-presence-section py-md-5 py-2">
         <div class="container">
             <h2 class="text-center mb-4">Our Coverage Area</h2>
             <div class="row">
@@ -436,7 +432,7 @@
     <!-- Footer Section -->
     <footer class="footer bg-dark text-light py-4">
         <div class="container">
-            <div class="row align-items-center mx-5">
+            <div class="row align-items-center mx-md-5 mx-2">
                 <!-- Left Column: Links -->
                 <div class="col-md-6 mb-3 mb-md-0">
                     <ul class="list-inline mb-0">
